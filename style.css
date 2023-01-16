@@ -1,1 +1,35 @@
+body{
+  margin: 0;
+}
 
+.banner{
+  background-color: #1F2937;
+}
+.banner h1{
+  font-size: 48px;
+  font-weight: bolder;
+  color: white;
+}
+.banner p{
+  color: white;
+}
+.banner a{
+  background-color: #3882F6;;
+  padding: 6px 16px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.cta {
+  background-color: #3882F6;
+  color: white;
+}
+.cta a{
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 6px 16px;
+  color: white;
+  font-weight: bold;
+}

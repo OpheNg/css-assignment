@@ -43,6 +43,29 @@ a#navlink{
   text-decoration: none;
   border-radius: 5px;
 }
+.text-img{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+  height: auto;
+  padding-bottom: 50px;
+}
+.text-img img{
+  margin: 50px 0;
+  border-radius: 8px;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 50px;
+}
+a.sign{
+  width: fit-content;
+}
+.main-img img{
+  height: 300px;
+}
 .triptic{
   display: flex;
   justify-content: space-evenly;

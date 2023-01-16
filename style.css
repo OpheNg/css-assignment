@@ -1,9 +1,31 @@
 body{
   margin: 0;
 }
+.wrap{
+  padding: 0 15%;
+}
+
 
 .banner{
   background-color: #1F2937;
+}
+#logo{
+  border-radius: 8px;
+  padding: 4px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+.navlinks{
+  display: flex;
+}
+a#navlink{
+  padding-right: 16px;
+  color: white;
+  text-decoration: none;
 }
 .banner h1{
   font-size: 48px;
@@ -13,7 +35,7 @@ body{
 .banner p{
   color: white;
 }
-.banner a{
+.banner a.sign{
   background-color: #3882F6;;
   padding: 6px 16px;
   color: white;
@@ -21,9 +43,21 @@ body{
   text-decoration: none;
   border-radius: 5px;
 }
+.card{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 16px;
+  border-radius: 8px;
+
+}
+.img-card{
+  border-radius: 8px;
+}
 .cta {
   background-color: #3882F6;
   color: white;
+  margin: 0 20%;
+  border-radius: 8px;
+  padding: 12px;
 }
 .cta a{
   text-decoration: none;
@@ -32,4 +66,8 @@ body{
   padding: 6px 16px;
   color: white;
   font-weight: bold;
+}
+footer {
+  color: white;
+  background-color: #1F2937;
 }

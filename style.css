@@ -22,8 +22,9 @@ body{
 .navlinks{
   display: flex;
 }
+
 a#navlink{
-  padding-right: 16px;
+  padding-left: 30px;
   color: white;
   text-decoration: none;
 }
@@ -58,13 +59,16 @@ a#navlink{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 50px;
+  margin: 50px 50px 50px 0;
 }
 a.sign{
   width: fit-content;
 }
 .main-img img{
   height: 300px;
+}
+h2.random{
+  text-align: center;
 }
 .triptic{
   display: flex;
@@ -86,13 +90,24 @@ a.sign{
 .img-card{
   border-radius: 8px;
 }
+.commentbox{
+  background-color: #E5E7EB;
+  padding: 50px 0;
+  height: 260px;
+}
+.commentbox p{
+  margin: 0 20%;
+
+}
+
 .cta {
   background-color: #3882F6;
   color: white;
-  margin: 0 20%;
+  margin: 50px 20%;
   border-radius: 8px;
   padding: 12px;
 }
+
 .cta a{
   text-decoration: none;
   border-radius: 5px;
@@ -102,6 +117,7 @@ a.sign{
   font-weight: bold;
 }
 footer {
+  padding: 20px 0;
   color: white;
   background-color: #1F2937;
 }

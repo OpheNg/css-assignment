@@ -116,3 +116,8 @@ a.sign{
 .share h2{
   font-family: "Roboto";
 }
+@media only screen and (max-width: 660px) {
+  #post {
+    width: 300px;
+  }
+}

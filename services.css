@@ -1,18 +1,18 @@
-/* @font-face {
+@font-face {
   font-family: "Roboto";
-  src: url(../fonts/Roboto-Bold.ttf) format('truetype');
+  src: url(./fonts/Roboto-Bold.ttf) format('truetype');
   font-weight:bolder;
 }
 @font-face {
   font-family: "Roboto";
-  src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+  src: url(./fonts/Roboto-Regular.ttf) format('truetype');
   font-weight:normal;
 }
 @font-face {
   font-family: "Roboto";
-  src: url(../fonts/Roboto-LightItalic.ttf) format('truetype');
+  src: url(./fonts/Roboto-LightItalic.ttf) format('truetype');
   font-style: italic;
-} */
+}
 
 body{
   margin: 0;
@@ -109,4 +109,10 @@ a.sign{
 }
 .square img{
   padding: 10px;
+}
+.gallery-img h2{
+  font-family: "Roboto";
+}
+.share h2{
+  font-family: "Roboto";
 }

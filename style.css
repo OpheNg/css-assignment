@@ -49,6 +49,10 @@ a#navlink{
   font-family: "Roboto", sans-serif;
   font-weight:lighter;
 }
+a#navlink:hover{
+  font-weight: bold;
+  color: #3882F6;
+}
 .banner h1{
   font-family: "Roboto", sans-serif;
   font-size: 48px;
@@ -56,16 +60,20 @@ a#navlink{
   color: #F8FAF8;
 }
 .banner p{
-  color: white;
+  color: #E5E7EB;
   font-size: 18px;
 }
 .banner a.sign{
   background-color: #3882F6;;
   padding: 8px 18px;
-  color: white;
+  color: #E5E7EB;
   font-weight: bold;
   text-decoration: none;
   border-radius: 5px;
+}
+.banner a.sign:hover{
+  background-color: #72e3a5;
+  color:#1F2937;
 }
 .text-img{
   display: flex;
@@ -141,7 +149,7 @@ small{
 
 .cta {
   background-color: #3882F6;
-  color: white;
+  color: #E5E7EB;
   margin: 50px 25%;
   border-radius: 8px;
   padding: 20px;
@@ -156,16 +164,20 @@ small{
 .cta a{
   text-decoration: none;
   border-radius: 5px;
-  border: 1px solid white;
+  border: 1px solid #E5E7EB;
   padding: 6px 16px;
-  color: white;
+  color: #E5E7EB;
   font-weight: bold;
   height: fit-content;
   /* align-self: flex-end; */
 }
+.cta a:hover{
+  background-color:#E5E7EB;
+  color: #3882F6;
+}
 footer {
   padding: 20px 0;
-  color: white;
+  color: #E5E7EB;
   background-color: #1F2937;
 }
 .foot{

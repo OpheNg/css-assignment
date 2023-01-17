@@ -101,3 +101,12 @@ a#navlink.actual{
 a.sign{
   width: fit-content;
 }
+.square{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+.square img{
+  padding: 10px;
+}

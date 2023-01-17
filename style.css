@@ -1,5 +1,23 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/Roboto-Bold.ttf) format('truetype');
+  font-weight:bolder;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/Roboto-Regular.ttf) format('truetype');
+  font-weight:normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/Roboto-LightItalic.ttf) format('truetype');
+  font-style: italic;
+}
+
 body{
   margin: 0;
+  font-family: "Roboto";
+  font-weight:normal;
 }
 .wrap{
   padding: 0 15%;
@@ -25,20 +43,24 @@ body{
 
 a#navlink{
   padding-left: 30px;
-  color: white;
+  color: #E5E7EB;
+  font-size: 18px;
   text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight:lighter;
 }
 .banner h1{
+  font-family: "Roboto", sans-serif;
   font-size: 48px;
   font-weight: bolder;
-  color: white;
+  color: #F8FAF8;
 }
 .banner p{
   color: white;
 }
 .banner a.sign{
   background-color: #3882F6;;
-  padding: 6px 16px;
+  padding: 8px 18px;
   color: white;
   font-weight: bold;
   text-decoration: none;
@@ -65,10 +87,11 @@ a.sign{
   width: fit-content;
 }
 .main-img img{
-  height: 300px;
+  height: 320px;
 }
 h2.random{
   text-align: center;
+  color: #1F2937;
 }
 .triptic{
   display: flex;
@@ -85,7 +108,9 @@ h2.random{
   align-items: center;
   text-align: center;
   width: 200px;
-
+}
+.card h2{
+  color: #1F2937;
 }
 .img-card{
   border-radius: 8px;
@@ -94,12 +119,14 @@ h2.random{
 }
 .commentbox{
   background-color: #E5E7EB;
-  padding: 50px 0;
-  height: 260px;
+  padding: 30px 0;
+  height: auto;
 }
 .commentbox p{
-  margin: 0 20%;
-
+  /* margin: 0 20%; */
+  font-family: "Roboto", sans-serif;
+  font-style:italic;
+  font-size: 36px;
 }
 
 .cta {

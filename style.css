@@ -20,6 +20,7 @@ body{
   font-weight:normal;
 }
 
+/* ---------- index ------------- */
 
 .wrap{
   padding: 0 15%;
@@ -117,6 +118,7 @@ h2.random{
   align-items: center;
   text-align: center;
   width: 200px;
+  height: auto;
 }
 .card h2{
   color: #1F2937;

@@ -112,11 +112,13 @@ a.sign{
 .main-img img{
   height: 320px;
 }
-@media only screen and (max-width: 1070px) {
+@media only screen and (max-width: 1070px){
   .main-img img {
     height: 200px;
   }
 }
+
+
 h2.random{
   text-align: center;
   color: #1F2937;

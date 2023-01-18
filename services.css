@@ -50,6 +50,11 @@ a#navlink{
   font-family: "Roboto", sans-serif;
   font-weight:lighter;
 }
+@media only screen and (max-width: 420px) {
+  a#navlink {
+    font-size: 12px;
+  }
+}
 a#navlink:hover{
   font-weight: bold;
   color: #3882F6;

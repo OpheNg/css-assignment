@@ -137,6 +137,7 @@ h2.random{
   align-items: center;
   text-align: center;
   width: 200px;
+  margin: 0 8px;
   /* height: ; */
 }
 .card h2{

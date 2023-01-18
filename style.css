@@ -83,10 +83,18 @@ a#navlink:hover{
   height: auto;
   padding-bottom: 50px;
 }
+@media only screen and (max-width: 940px) {
+  .text-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .text-img img{
   margin: 50px 0;
   border-radius: 8px;
 }
+
 .text{
   display: flex;
   flex-direction: column;
@@ -99,6 +107,11 @@ a.sign{
 .main-img img{
   height: 320px;
 }
+@media only screen and (max-width: 1070px) {
+  .main-img img {
+    height: 200px;
+  }
+}
 h2.random{
   text-align: center;
   color: #1F2937;
@@ -108,6 +121,12 @@ h2.random{
   justify-content: space-evenly;
   align-items: center;
   margin: 50px 0;
+}
+@media only screen and (max-width: 1070px) {
+  .triptic {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 .card{
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -133,6 +152,7 @@ h2.random{
   padding: 30px 0;
   height: auto;
 }
+
 .commentbox p{
   /* margin: 0 20%; */
   font-family: "Roboto", sans-serif;
@@ -159,6 +179,12 @@ small{
   justify-content: space-evenly;
   align-items: center;
 }
+@media only screen and (max-width: 1215px) {
+  .cta {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .cta p{
   font-weight: 400;
 }
@@ -177,6 +203,13 @@ small{
   background-color:#E5E7EB;
   color: #3882F6;
 }
+@media only screen and (max-width: 680px) {
+  .down {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 footer {
   padding: 20px 0;
   color: #E5E7EB;
@@ -212,4 +245,10 @@ i{
 }
 .social a:hover{
   color:#6a9ef2;
+}
+@media only screen and (max-width: 840px) {
+  .foot {
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -87,7 +87,7 @@ a#navlink.actual{
   margin: 50px 0 0 0;
   height: auto;
 }
-@media only screen and (max-width: 674px) {
+@media only screen and (max-width: 900px) {
   .text-img {
     display: flex;
     flex-direction: column;

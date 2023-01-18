@@ -160,6 +160,11 @@ h2.random{
   font-size: 36px;
   text-align: justify;
 }
+@media only screen and (max-width: 860px) {
+  .commentbox p {
+    font-size:20px;
+  }
+}
 .down{
   display: flex;
   justify-content: space-between;

@@ -116,10 +116,14 @@ a.sign:hover{
   background-color: #72e3a5;
   color:#1F2937;
 }
+p.demo {
+  text-align: left;
+  font-style: italic;
+}
 .square{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
 
 }
 

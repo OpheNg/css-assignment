@@ -158,3 +158,35 @@ p.demo {
     font-size: 12px;
   }
 }
+.linksss a{
+  text-decoration: none;
+  color: #1F2937;
+  border: 1px solid rgb(184, 184, 184);
+  border-radius: 5px;
+  padding: 4px 6px;
+
+}
+.linksss{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+@media only screen and (max-width: 800px) {
+  .linksss {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 12px;
+  }
+}
+a.h{
+  background-color: #1F2937;
+  color: #E5E7EB;
+}
+a.h:hover{
+  background-color: #3882F6;
+}
+a.top:hover{
+  color: #3882F6;
+  border: 1px solid #3882F6;
+}

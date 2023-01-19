@@ -179,14 +179,14 @@ p.demo {
     padding-bottom: 12px;
   }
 }
-a.h{
+.wrap a.h{
   background-color: #1F2937;
   color: #E5E7EB;
 }
-a.h:hover{
+.wrap a.h:hover{
   background-color: #3882F6;
 }
-a.top:hover{
+.wrap a.top:hover{
   color: #3882F6;
   border: 1px solid #3882F6;
 }

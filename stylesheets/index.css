@@ -88,11 +88,28 @@ a#navlink:hover{
   height: auto;
   padding-bottom: 50px;
 }
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 50px 50px 0;
+}
 @media only screen and (max-width: 940px) {
   .text-img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+  }
+  .text  {
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .text a{
+    align-self: center;
   }
 }
 .text-img img{
@@ -100,12 +117,7 @@ a#navlink:hover{
   border-radius: 8px;
 }
 
-.text{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0px 50px 50px 0;
-}
+
 a.sign{
   width: fit-content;
 }

@@ -3,27 +3,29 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="stylesheets/index.css">
-    <!-- ask Branko if Ok -->
     <script src="https://kit.fontawesome.com/8110e6fe91.js" crossorigin="anonymous"></script>
-    <!-- ---------------- -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arty Space - The Best Digital Gallery :)</title>
   </head>
 
   <body>
-    <div class="banner">
+
+    <header class="banner">
       <div class="wrap">
-        <div class="navbar">
+        <nav class="navbar">
           <img src="./images/A.png" width="40px" height="40px" alt="logo of the very cool product" id="logo">
-          <div class="navlinks">
+          <menu class="navlinks">
             <p><a id="navlink" href="pages/about.html">About</a></p>
             <p><a id="navlink" href="pages/services.html">Services</a></p>
             <p><a id="navlink" href="pages/contact.html">Contact</a></p>
-          </div>
-        </div>
+          </menu>
+        </nav>
+      </div>
+    </header>
 
-        <div class="text-img">
+      <main>
+        <section class="banner banner-top wrap">
           <div class="text">
             <h1>ARTY SPACE</h1>
             <p>
@@ -34,91 +36,93 @@
             </p>
             <a class="sign"href="#">Sign Up !</a>
           </div>
-          <div class="main-img">
+          <picture class="main-img">
             <img src="./images/gallery.png" alt="art gallery pic">
-          </div>
-        </div>
-      </div>
-    </div>
+          </picture>
+        </section>
 
-    <div class="wrap">
-      <h2 class="random"> Arty Space showrooms :</h2>
-      <div class="triptic">
-        <div class="card">
-          <h2>Painting</h2>
-          <img class="img-card" src="./images/painting.jpg"  alt="colorful japanese painting">
-          <p>Paintings of all kinds</p>
-        </div>
-        <div class="card">
-          <h2>Drawing</h2>
-          <img class="img-card"src="./images/drawing.jpg"  alt="drawing of flowers">
-          <p>Pencil drawings, pen, charcoal, ... </p>
-        </div>
-        <div class="card">
-          <h2>Digital painting</h2>
-          <img class="img-card" src="./images/digital.jpg"  alt="image of digital landscape">
-          <p>All sorts of digital work, landscapes, portraits, ...</p>
-        </div>
-        <div class="card">
-          <h2>Photography</h2>
-          <img class="img-card" src="./images/photo.png"  alt="image of a camera">
-          <p>Colors, black & white, portraits, ...</p>
-        </div>
-      </div>
-    </div>
-
-      <div class="commentbox">
-        <div class="wrap">
-          <div class="up">
-              <p>
-                "A great online art gallery…
-                The artists have now a great way to display their work!
-                I can thoroughly recommend Arty Space ! Hope It'll be possible to sell art online soon !"
-              </p>
-            <br>
-          </div>
-          <div class="down">
-            <small>Date of experience: January 11, 2023</small>
-            <p><b>Pablo Picasso</b></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="cta">
-        <div class="CTA">
-          <h3>Create your profile and share your work !</h3>
-          <p>Enjoy our gallery and take a look at our artists creations!</p>
-        </div>
-        <a href="#">Sign up !</a>
-      </div>
-
-      <footer>
-        <div class="wrap">
-          <div class="foot">
-            <div class="address">
-              <p>ARTY SPACE - 25, Republic Street - 98765 Planet Hearth</p>
-              <a href="#">contact@artyspace.com</a>
+        <section class="wrap box2">
+          <h2 class="random"> Arty Space showrooms :</h2>
+          <div class="triptic">
+            <div class="card">
+              <p>Painting</p>
+              <figure>
+                <img class="img-card" src="./images/painting.jpg"  alt="colorful japanese painting">
+                <figcaption>Paintings of all kinds</figcaption>
+              </figure>
             </div>
-            <div class="social">
-              <ul>
-                <li>
-                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                </li>
-              </ul>
+            <div class="card">
+              <p>Drawing</p>
+              <figure>
+                <img class="img-card"src="./images/drawing.jpg"  alt="drawing of flowers">
+                <figcaption>Pencil drawings, pen, charcoal, ... </figcaption>
+              </figure>
+            </div>
+            <div class="card">
+              <p>Digital painting</p>
+              <figure>
+                <img class="img-card" src="./images/digital.jpg"  alt="image of digital landscape">
+                <figcaption>All sorts of digital work, landscapes, portraits, ...</figcaption>
+              </figure>
+            </div>
+            <div class="card">
+              <p>Photography</p>
+              <figure>
+                <img class="img-card" src="./images/photo.png"  alt="image of a camera">
+                <figaption>Colors, black & white, portraits, ...</figcaption>
+              </figure>
             </div>
           </div>
-          <small>All rights reserved - Copyright 2023</small>
+        </section>
+
+        <blockquote class="commentbox">
+          <div class="wrap">
+            <section class="up">
+                <p>
+                  "A great online art gallery…
+                  The artists have now a great way to display their work!
+                  I can thoroughly recommend Arty Space ! Hope It'll be possible to sell art online soon !"
+                </p>
+              <br>
+            </section>
+            <section class="down">
+              <small>Date of experience: January 11, 2023</small>
+              <p><b>Pablo Picasso</b></p>
+            </section>
+          </div>
+        </blockquote>
+
+        <section class="cta">
+          <div class="CTA">
+            <h3>Create your profile and share your work !</h3>
+            <p>Enjoy our gallery and take a look at our artists creations!</p>
+          </div>
+          <a href="#">Sign up !</a>
+        </section>
+      </main>
+
+
+      <footer class="wrap">
+        <div class="foot">
+          <section class="address">
+            <p>ARTY SPACE - 25, Republic Street - 98765 Planet Hearth</p>
+            <a href="#">contact@artyspace.com</a>
+          </section>
+          <section class="social">
+            <ul>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+            </ul>
+          </section>
         </div>
+        <small>All rights reserved - Copyright 2023</small>
       </footer>
-
-
-
-
   </body>
 </html>

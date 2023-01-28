@@ -28,6 +28,7 @@ body{
 .banner{
   background-color: #1F2937;
 }
+
 #logo{
   border-radius: 8px;
   padding: 4px;
@@ -59,17 +60,17 @@ a#navlink:hover{
     font-size: 12px;
   }
 }
-.banner h1{
+.banner-top h1{
   font-family: "Roboto", sans-serif;
   font-size: 48px;
   font-weight: bolder;
   color: #F8FAF8;
 }
-.banner p{
+.banner-top p{
   color: #E5E7EB;
   font-size: 18px;
 }
-.banner a.sign{
+.banner-top a.sign{
   background-color: #3882F6;;
   padding: 8px 18px;
   color: #E5E7EB;
@@ -77,14 +78,14 @@ a#navlink:hover{
   text-decoration: none;
   border-radius: 5px;
 }
-.banner a.sign:hover{
+.banner-top a.sign:hover{
   background-color: #72e3a5;
   color:#1F2937;
 }
-.text-img{
+.banner-top{
   display: flex;
   justify-content: space-between;
-  margin: 50px 0;
+  /* margin: 50px 0; */
   height: auto;
   padding-bottom: 50px;
 }
@@ -95,7 +96,7 @@ a#navlink:hover{
   margin: 0px 50px 50px 0;
 }
 @media only screen and (max-width: 940px) {
-  .text-img {
+  .banner-top {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,7 +113,7 @@ a#navlink:hover{
     align-self: center;
   }
 }
-.text-img img{
+.banner-top img{
   margin: 50px 0;
   border-radius: 8px;
 }
@@ -129,8 +130,9 @@ a.sign{
     height: 200px;
   }
 }
-
-
+.box2{
+  margin: 40px 0;
+}
 h2.random{
   text-align: center;
   color: #1F2937;
@@ -159,22 +161,24 @@ h2.random{
   margin: 10px 10px;
   /* height: ; */
 }
-.card h2{
+.card p{
   color: #1F2937;
+  font-weight: bold;
 }
 .img-card{
   border-radius: 8px;
   height: 160px;
   width: 160px;
 }
-.commentbox{
+
+blockquote.commentbox{
   background-color: #E5E7EB;
   padding: 30px 0;
   height: auto;
+  margin: 0;
 }
 
 .commentbox p{
-  /* margin: 0 20%; */
   font-family: "Roboto", sans-serif;
   font-style:italic;
   font-size: 36px;
